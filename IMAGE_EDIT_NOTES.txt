@@ -1,0 +1,14 @@
+Image edit: built-in imagegen
+
+Prompt:
+Use case: text-localization
+Asset type: high-resolution Thai localized Famicom game cover used on an existing fan translation website.
+Edit target: Image 1, the 1960x1380 original Japanese cover scan. Image 2 is ONLY a reference for the Thai title lettering, layout and the colored subtitle strip, not a source to upscale.
+Create a flat full-bleed cover image in the same landscape aspect ratio and with the high detail of Image 1. Preserve the exact original hand-painted fishing illustration: boy with straw hat on the left, hands holding blue fishing rod and gold reel, enormous marlin leaping on the right, dark blue sea and white spray. Do not redraw or modernize the characters, faces or fish; preserve their proportions, pose, colors, texture and placement. Keep original artwork fidelity as high as possible.
+Replace the Japanese title and subtitle at the lower right with Thai arranged like reference Image 2: 
+Line 1 (largest, bold cheerful yellow lettering with dark shadow): "ซันเป้"
+Line 2 (smaller bold yellow, same lettering style): "เจ้าหนูนักตกปลา"
+Line 3 (white lettering across alternating deep-blue and teal rectangular tiles, with red swash accents as in reference): "ภาค บลูมาร์ลิน"
+Exact Thai spelling is essential: "ซันเป้" includes the mai tho tone mark ้ over ป. Do NOT write "ซันเป". Keep the Thai title clear, clean and legible, with accurate vowel/diacritic placement, and within the artwork boundaries, matching reference title proportions.
+As in the reference Thai layout, remove the lower-left red Japanese text starburst and reconstruct the underlying illustration unobtrusively. Remove the white inventory label "VFR-Y1-04" at upper left, reconstructing sea/background. Other small original brand marks may remain; do not invent extra labels or credits. No extra Thai wording. No new fish, characters, objects, borders, product mockup, website UI or decorative background outside cover.
+Output one high-resolution cover image only, opaque background.
