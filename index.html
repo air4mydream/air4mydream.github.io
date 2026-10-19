@@ -6,6 +6,8 @@
 <link rel="stylesheet" href="./assets/site-v1.1.css">
 
 <link rel="stylesheet" href="./assets/rom-source-v1.6.css">
+<link rel="stylesheet" href="./assets/rom-sha1-checker-v1.7.css">
+<script defer src="./assets/rom-sha1-checker-v1.7.js"></script>
 </head><body>
 <a class="skip-link" href="#main-content">ข้ามไปยังเนื้อหา</a>
 <header class="topbar"><span class="brand">air4mydream</span><span class="top-note">แพตช์เกมภาษาไทย</span></header>
@@ -25,6 +27,21 @@
 <details class="rom-source-box"><summary>ชื่อรอมต้นฉบับและ SHA-1</summary><dl class="rom-source-facts"><dt>ชื่อไฟล์รอมอ้างอิง</dt><dd><code>Simple Character 2000 Series Vol. 09 - Tsurikichi Sanpei - The Tsuri (Japan).bin</code></dd><dt>SHA-1 · ต้นฉบับญี่ปุ่น</dt><dd><code>F31C11A9004E851D6710B9B7C088AF1195EA1C65</code></dd><dt>ขนาดไฟล์</dt><dd>266,077,056 ไบต์</dd></dl><p class="hint">ตรวจไฟล์ต้นฉบับทั้งไฟล์ก่อนแปะแพตช์ ไม่ใช่ ZIP · ดูรายละเอียดเพิ่มเติมในหน้าแปะแพตช์</p></details>
 <a class="button primary" href="/tsuri-sanpei-ps1-thai-patch/" aria-label="ไปหน้าแปะแพตช์ ซันเป้ ฟิชชิ่งบอย สิงห์นักตก สำหรับ PlayStation 1">ไปหน้าแปะแพตช์ <span aria-hidden="true">→</span></a></article>
 </div></section>
+<section class="rom-sha1-checker" data-rom-sha1-checker aria-labelledby="sha1-checker-title">
+<span class="section-tag">ตรวจไฟล์ในเครื่องคุณ</span><h2 id="sha1-checker-title">ตรวจสอบ SHA-1 ของรอม</h2>
+<p>เลือกไฟล์ต้นฉบับเพื่อตรวจว่าเป็นรุ่นที่แพตช์รองรับ โดยยังไม่ต้องแปะแพตช์</p>
+<p class="checker-privacy">ไฟล์ถูกอ่านในอุปกรณ์ของคุณเท่านั้น ไม่อัปโหลดหรือบันทึกรอมลงเซิร์ฟเวอร์</p>
+<div class="checker-controls"><label class="checker-field" for="sha1-game">เกมที่ต้องการตรวจ<select id="sha1-game" data-checker-game><option value="auto" selected>ตรวจเทียบทั้งสองเกมอัตโนมัติ</option><option value="famicom">Famicom · ภาค บลูมาร์ลิน</option><option value="ps1">PS1 · สิงห์นักตก</option></select></label>
+<label class="checker-field" for="sha1-file">เลือกไฟล์ .NES หรือ .BIN จากเครื่อง<input id="sha1-file" data-checker-file type="file" accept=".nes,.bin" aria-describedby="sha1-file-hint"></label></div>
+<p id="sha1-file-hint" class="hint">แตก ZIP/7z ก่อนเลือกไฟล์ · Famicom ใช้ .nes รวมส่วนหัว iNES · PS1 ใช้ .bin ทั้งแผ่น · ตรวจไฟล์ต้นฉบับก่อนแปะแพตช์</p>
+<p class="checker-filename" data-checker-filename>ยังไม่ได้เลือกไฟล์</p>
+<p class="checker-expected">SHA-1 ที่รองรับ: <code data-checker-expected></code></p>
+<div class="actions"><button data-checker-start class="button primary" type="button" disabled>ตรวจสอบ SHA-1</button><button data-checker-cancel class="button subtle" type="button" hidden>ยกเลิกการตรวจ</button></div>
+<div data-checker-progress-wrap class="progress-wrap" hidden><div class="progress-heading"><span>กำลังคำนวณในเครื่อง</span><span data-checker-percent>0%</span></div><progress data-checker-progress max="100" value="0" aria-label="ความคืบหน้าการตรวจ SHA-1"></progress></div>
+<p data-checker-status class="status" role="status" aria-live="polite">เลือกไฟล์ต้นฉบับจากเครื่องเพื่อเริ่มตรวจ</p>
+<div data-checker-result class="checker-result" hidden><h3 data-checker-verdict></h3><dl><dt>SHA-1 ของไฟล์ที่เลือก</dt><dd><code data-checker-hash></code></dd><dt>ขนาดไฟล์</dt><dd data-checker-size></dd></dl><p data-checker-explanation></p></div>
+<noscript><p class="status error">กรุณาเปิด JavaScript เพื่อใช้เครื่องมือตรวจ SHA-1</p></noscript>
+</section>
 <section class="journey-steps" aria-label="วิธีเริ่มต้น"><ol><li><span class="step-number">1</span>เลือกเกม</li><li class="step-arrow" aria-hidden="true">→</li><li><span class="step-number">2</span>เลือก ROM ต้นฉบับ</li><li class="step-arrow" aria-hidden="true">→</li><li><span class="step-number">3</span>แปะแพตช์และบันทึก</li></ol><p>แต่ละเกมมีหน้าแปะแพตช์และคำแนะนำของตัวเอง</p></section>
 </main><footer class="site-footer"><p>แพตช์ภาษาไทยโดย John Lowery · แจกฟรี ห้ามจำหน่าย</p></footer>
 </body></html>
